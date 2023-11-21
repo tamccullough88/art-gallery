@@ -24,13 +24,13 @@ function App() {
   }
 
 
-  const displayImage = () => {
-    if (!DataTransfer.primaryImage) {
-      return (
-        <h2>No Image!</h2>
-      )
-    }
-  }
+  // const displayImage = () => {
+  //   if (!DataTransfer.primaryImage) {
+  //     return (
+  //       <h2>No Image!</h2>
+  //     )
+  //   }
+  // }
   return (
     <div className="App">
       <Display objectImage={data.primaryImage} artist={data.artistDisplayName} title={data.title} />
